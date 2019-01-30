@@ -14,7 +14,10 @@
   "homepage": "https://github.com/Poky85/react-resizzer",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Poky85/react-resizzer"
+    "url": "git+https://github.com/Poky85/react-resizzer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Poky85/react-resizzer/issues"
   },
   "keywords": [
     "react",
