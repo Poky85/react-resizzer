@@ -1,20 +1,25 @@
 {
-  "name": "react-resizzer",
+  "name": "@poky85/react-resizzer",
   "version": "0.1.0",
+  "author": "Jiri Pokorny",
+  "license": "MIT",
   "description": "A lite-weight component for resizing any element using handle",
   "main": "dist/index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development --watch",
-    "build:package": "babel src --copy-files -d dist ",
     "build": "webpack --progress --profile --colors --mode production",
+    "prepublishOnly": "babel src --copy-files -d dist ",
     "test": "jest"
+  },
+  "homepage": "https://github.com/Poky85/react-resizzer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Poky85/react-resizzer"
   },
   "keywords": [
     "react",
     "resize"
   ],
-  "author": "Jiri Pokorny",
-  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
